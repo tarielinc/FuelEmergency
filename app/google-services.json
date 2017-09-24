@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "168321853521",
+    "firebase_url": "https://fuel-emergency.firebaseio.com",
+    "project_id": "fuel-emergency",
+    "storage_bucket": "fuel-emergency.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168321853521:android:6531b14331a46055",
+        "android_client_info": {
+          "package_name": "com.example.tariel.fuelemergency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168321853521-prggrullnb0n1bb3u30ptuqdslkqk020.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tariel.fuelemergency",
+            "certificate_hash": "9e03490ec9d7d9b34f4f0a85565d56d72af00487"
+          }
+        },
+        {
+          "client_id": "168321853521-uejpefkh481k53h0ehlnad0a1v0tm3is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeeSU0jQOvtQN64nZYXB3dYKb4wfTW_ao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168321853521-uejpefkh481k53h0ehlnad0a1v0tm3is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
