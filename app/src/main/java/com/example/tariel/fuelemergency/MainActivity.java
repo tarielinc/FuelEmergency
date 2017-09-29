@@ -4,9 +4,7 @@ package com.example.tariel.fuelemergency;
 import android.location.Location;
 import android.location.LocationListener;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -14,7 +12,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
 
 
-public class MainActivity extends FragmentActivity implements LocationListener {
+public class MainActivity extends AppCompatActivity implements LocationListener {
 
 
     private GoogleMap googleMap;
@@ -23,7 +21,6 @@ public class MainActivity extends FragmentActivity implements LocationListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     private void requestPermission() {
