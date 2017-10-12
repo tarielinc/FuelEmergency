@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         setContentView(R.layout.activity_main);
     }
 
+//    int permissionCheckFine = ContextCompat.checkSelfPermission(MainActivity.this,
+//            Manifest.permission.ACCESS_FINE_LOCATION);
+//    int permissionCheckCoarse = ContextCompat.checkSelfPermission(MainActivity.this,
+//            Manifest.permission.ACCESS_COARSE_LOCATION);
+
 
     @Override
     public void onLocationChanged(Location location) {
