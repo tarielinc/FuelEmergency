@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements
         GoogleMap.OnMarkerClickListener,
         ActivityCompat.OnRequestPermissionsResultCallback {
 
-    private static final LatLng GAS1 = new LatLng(40.193076, 44.533152);
 
     private FirebaseAnalytics mFirebaseAnalytics;
 
@@ -34,12 +33,14 @@ public class MainActivity extends AppCompatActivity implements
     private boolean mPermissionDenied = false;
 
     private GoogleMap mMap;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
 
         SupportMapFragment mapFragment =
@@ -54,11 +55,12 @@ public class MainActivity extends AppCompatActivity implements
         mMap.setOnMyLocationButtonClickListener(this);
         enableMyLocation();
 
-        mMap.addMarker(new MarkerOptions()
+        Marker Payt = mMap.addMarker(new MarkerOptions()
                 .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher))
-                .position(GAS1)
+                .position(new LatLng(40.193076, 44.533152))
                 .title("PAYT")
                 .snippet("Regular: 350"));
+
     }
 
 
@@ -116,15 +118,7 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public boolean onMarkerClick(Marker marker) {
-
-        String name= marker.getTitle();
-
-        String markerName;
-        switch (name.equalsIgnoreCase(markerName)){
-            case "PAYT":
-
-        }
-
+        
 
         return false;
     }

@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "168321853521-pp3r2o4asnfdj2546v43tgef0e658j5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tariel.fuelemergency",
+            "certificate_hash": "732ce7823bb1249e691ee3998bd77ebb4a524c5c"
+          }
+        },
+        {
+          "client_id": "168321853521-pkhu0kmj5sl0t70ap24lh4hrhps4udp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tariel.fuelemergency",
+            "certificate_hash": "e4c424e6cdf9a7f1e7d244d783611f09661033ac"
+          }
+        },
+        {
           "client_id": "168321853521-prggrullnb0n1bb3u30ptuqdslkqk020.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
