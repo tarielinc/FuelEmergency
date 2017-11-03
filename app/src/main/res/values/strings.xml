@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fuel Emergency</string>
+    <string name="mail"> info@mail.com</string>
 </resources>
