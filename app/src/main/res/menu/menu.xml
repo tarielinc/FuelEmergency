@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <group android:checkableBehavior="single">
+     <item android:id="@+id/petrol"
+         android:title="Petrol"/>
+     <item android:id="@+id/gas"
+         android:title="Gas"/>
+ </group>
+    <item>
+        <menu>
+            <item android:id="@+id/aboutus"
+                android:title="About us">
+
+            </item>
+        </menu>
+    </item>
+</menu>
