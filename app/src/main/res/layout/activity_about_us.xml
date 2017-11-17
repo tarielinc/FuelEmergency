@@ -5,26 +5,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingRight="16sp"
-    android:paddingLeft="16sp"
-    android:paddingTop="16sp"
-    android:paddingBottom="16sp"
+
     tools:context="com.example.tariel.fuelemergency.AboutUs">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_nav"
+            android:id="@+id/toolbar1">
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About Us"
+        android:paddingRight="16sp"
+        android:paddingLeft="16sp"
+        android:paddingTop="16sp"
+        android:paddingBottom="16sp"
         android:textSize="20sp"
         android:textStyle="bold"/>
 
     <TextView
+
         android:paddingTop="16sp"
+        android:paddingEnd="16sp"
+        android:paddingStart="16sp"
         android:paddingBottom="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fuel Emergency֊ն Հայաստանում առաջին համակարգն է, որը թույլ է տալիս գտնել մոտակա բենզալցակայանները, գազալցակայանները։ "
         />
+
+    <Button
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:id="@+id/back"/>
 
 
 
